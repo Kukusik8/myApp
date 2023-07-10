@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my Portfolio</title>
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+ 
+ 
+
 </head>
-<body  >
+<body>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
                 <a href="./index.html" class="logo">My <strong>Portfolio</strong></a>
-                    <button class="dark-mode-btn dark-mode-btn__active ">
-                        <img class="dark-mode-btn__icon" src="./img/Sun.svg" alt="">
-                        <img class="dark-mode-btn__icon"  src="./img/Moon.svg" alt="">
+                  
+                <button class="dark-mode-btn">
+                        <img class="dark-mode-btn__icon" src="./img/Sun.svg" alt="Light mode">
+                        <img class="dark-mode-btn__icon"  src="./img/Moon.svg" alt="Dark mode">
                     </button>
                 
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active" >Projects</a> </li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a></li>
                     <li class="nav-list__item"><a href="./skills.html" class="nav-list__link" >Skills</a> </li>
                     <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link" >Contacts</a> </li>
 
@@ -28,61 +31,52 @@
         </div>
     </nav>  
 
-    <div class="header">
-<div class=" header-wraper">
-    <h1 class="header_title"><strong>Hey there, I am <em>Ruslan</em> </strong>  
-       <div class="front">a Frontend developer </div>
-          
+    <header class="header">
+<div class=" header__wraper">
+    <h1 class="header__title"><strong>Hey there, I am <em>Ruslan</em></strong><br>
+      a Frontend developer
         </h1>
-        <div class="header_text">
-            <p class="decription">with passion for learning and creating</p>        
+        <div class="header__text">
+            <p>with passion for learning and creating</p>        
+        </div>
+    <a href="./CV Sakhautdinov.pdf" class="btn  cv-btn "  download="" target="_blank">Download CV</a>
 </div>
-<div class="btn_center">
-    <a href="./summary.pdf" class="btn"  download="" target="_blank" >Download CV</a>
-</div>
-   
-</div>
-    </div>
+</header>
     <main class="section">
         <div class="container">
             <h2 class="title-1" >Projects</h2>
                 <ul class="projects">
-                    <li class="project" > 
-                        <a href="" class="link"  >
-                            <img src="./img/01.jpg" alt="game-proj" class="project_img">
-                            <h3 class="project__title">Gaming streaming portal</h3>
+                    <li class="project"> 
+                        <a href="https://moonlit-squirrel-4ccc0b.netlify.app/" target="_blank"   >
+                            <img src="./img/users (1).png" alt="game-proj" class="project__img">
+                            <h3 class="project__title">List of invited users</h3>
                         </a>
                     </li>
-                    
                     <li class="project">
-                        <a href="./project-page.html" class="link">
-                            <img   src="./img/02.jpg" alt="video project" class="project_img">
-                            <h3 class="project__title">Video service</h3>
+                        <a href="https://typing-game-xi-ten.vercel.app/"  target="_blank">
+                            <img   src="./img/typegame (1).png" alt="video project" class="project__img">
+                            <h3 class="project__title">Speed typer game</h3>
                         </a>
                     </li>
-
                     <li class="project">
-                        <a href="" class="link">
-                            <img src="./img/03.jpg" alt="video project" class="project_img">
-                            <h3 class="project__title">Video portal</h3>
+                        <a href="https://quiz-neon-eight.vercel.app/" target="_blank">
+                            <img src="./img/quiz (1).png" alt="video project" class="project__img">
+                            <h3 class="project__title">Quiz game</h3>
                         </a>
                         
                     </li>
-
+                    <a href="https://pics-collection.vercel.app/" target="_blank">
                     <li class="project">
-                        <img src="./img/04.jpg" alt="video project" class="project_img">
-                        <h3 class="project__title">Datting app</h3>
+                        <img src="./img/photos.png" alt="video project" class="project__img">
+                        <h3 class="project__title">Photo collection</h3>
                     </li>
-                    
+                </a >
+                    <a href="https://dom-arrays-methods.vercel.app/" target="_blank" >
                     <li class="project">
-                        <img src="./img/05.jpg" alt="video project" class="project_img">
-                        <h3 class="project__title">Landing</h3>
+                        <img src="./img/arrays (1).png" alt="video project" class="project__img">
+                        <h3 class="project__title">DOM array methods</h3>
                     </li>
-
-                    <li class="project">
-                        <img src="./img/06.jpg" alt="video project" class="project_img">
-                        <h3 class="project__title">Gaming community</h3>
-                    </li>
+                </a>
                 </ul>
             
         </div>
@@ -90,15 +84,15 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-wraper">
+            <div class="footer__wrapper">
             <ul class="social">
-                <li class="sociat-item"><a href="https://vk.com/ruslansakh" target="_blank" ><img src="./img/vk.png" alt=""></a></li>
-                <li class="sociat-item"><a href="" target="_blank" ><img src="./img/inst.png" alt=""></a></li>
-                <li class="sociat-item"><a href="https://github.com/Kukusik8" target="_blank" ><img src="./img/git.png" alt=""></a></li>
+                <li class="social__item"><a href="https://vk.com/ruslansakh" target="_blank" ><img src="./img/vk.png" alt=""></a></li>
+                <li class="social__item"><a href="" target="_blank" ><img src="./img/inst.png" alt=""></a></li>
+                <li class="social__tem"><a href="https://github.com/Kukusik8" target="_blank" ><img src="./img/git.png" alt=""></a></li>
             </ul>
-        </div>
-        <div class="foot-info">
+        <div class="copyright">
             <p>© 2023 frontend-dev.com</p>
+        </div>
         </div>
         </div>
     </footer>

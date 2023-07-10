@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="/css/reset.css">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
                 <a href="./index.html" class="logo">My <strong>Portfolio</strong></a>
-                <button class="dark-mode-btn dark-mode-btn__active ">
-                    <img class="dark-mode-btn__icon" src="./img/Sun.svg" alt="">
-                    <img class="dark-mode-btn__icon"  src="./img/Moon.svg" alt="">
+
+                <button class="dark-mode-btn">
+                    <img class="dark-mode-btn__icon" src="./img/Sun.svg" alt="Light mode">
+                    <img class="dark-mode-btn__icon"  src="./img/Moon.svg" alt="Dark mode">
                 </button>
+                
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active" >Projects</a> </li>
-                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link" >Skills</a> </li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link " >Projects</a> </li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link nav-list__link--active" >Skills</a> </li>
                     <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link" >Contacts</a> </li>
 
                 </ul>
@@ -31,31 +30,38 @@
 
     <main class="section">
         <div class="container">
-            <div class="project-details">
-            <h1 class="title-1" >Skills</h1>    
+            <h1 class="title-1" >Skills</h1>
+            <ul class="content-list">
+                <li class="content-list__item">
                 <h2 class="title-2">Frontend</h2>
-            <div class="project-skills__desk">
-                <p >JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, <br> NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents </p>
+                <p>HTML CSS, CSS Preprocessors, Cross-Browser Compatibility, DOM, javascript, typescript, react/react router, redux, npm, axios, <br>API, git/git bash, bootstrap,</p>
+                </li>
+                <li class="content-list__item">
+                    <h2 class="title-2">Soft skills/Non-technical Skills</h2>
+                    <p>Creativity, Teamwork, English proficiency (B2)</p>
+                    </li>
+                </ul>
 
             </div>
                 
-            </div>
-        </div>
+            
+       
     </main>
 
-    <footer class="footer  skills__footer">
+    <footer class="footer">
         <div class="container">
-            <div class="footer-wraper">
-            <ul class="social social__skills ">
-                <li class="sociat-item"><a href="https://vk.com/ruslansakh" target="_blank" ><img src="./img/vk.png" alt=""></a></li>
-                <li class="sociat-item"><a href="" target="_blank" ><img src="./img/inst.png" alt=""></a></li>
-                <li class="sociat-item"><a href="https://github.com/Kukusik8" target="_blank" ><img src="./img/git.png" alt=""></a></li>
+            <div class="footer__wrapper">
+            <ul class="social">
+                <li class="social__item"><a href="https://vk.com/ruslansakh" target="_blank" ><img src="./img/vk.png" alt="Vk link"></a></li>
+                <li class="social__item"><a href="" target="_blank" ><img src="./img/inst.png" alt="Inst link"></a></li>
+                <li class="social__item"><a href="https://github.com/Kukusik8" target="_blank" ><img src="./img/git.png" alt="Git link"></a></li>
             </ul>
-        </div>
-        <div class="foot-info">
+        
+        <div class="copyright">
             <p>© 2023 frontend-dev.com</p>
         </div>
-        </div>
+    </div>
+    </div>
     </footer>
     <script src="../portfolio proj/index.js" ></script>
 </body>
